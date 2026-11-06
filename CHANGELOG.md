@@ -9,4 +9,5 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
+- Add `pii_scan_datasets`: column-level PII scanner for CSV, TSV and JSONL with checksum-validated detectors, header hints, text/JSON rendering and the `pii-scan-datasets` CLI that never prints cell values.
 - Initial project structure from the factory utility template.

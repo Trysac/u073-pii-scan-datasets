@@ -1,13 +1,12 @@
 # pii-scan-datasets
 
-> Detect columns holding personal data in CSV, TSV and JSONL datasets with checksum-validated detectors and header hints, never printing cell values Python package `trysac-pii-scan-datasets`, import name `pii_scan_datasets`, MIT licensed,
-> Python >= 3.10, no runtime dependencies.
+> Detect columns holding personal data in CSV, TSV and JSONL datasets with checksum-validated detectors and header hints, without printing cell values. Python package `trysac-pii-scan-datasets`, import name `pii_scan_datasets`, MIT licensed, Python >= 3.10, no runtime dependencies.
 
 ## Docs
 
 - [README](README.md): problem, install, usage example
-- [AGENTS](AGENTS.md): commands, folder map, conventions, limits
 - [Architecture](docs/ARCHITECTURE.md): shape of the package and its public API
+- [Security](docs/SECURITY.md): threat model
 - [Testing](docs/TESTING.md): how to run and extend the tests
 
 ## Optional

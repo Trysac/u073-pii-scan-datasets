@@ -19,6 +19,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+pii-scan-datasets = "pii_scan_datasets.__main__:main"
+
 [project.urls]
 Homepage = "https://github.com/Trysac/u073-pii-scan-datasets"
 Source = "https://github.com/Trysac/u073-pii-scan-datasets"
